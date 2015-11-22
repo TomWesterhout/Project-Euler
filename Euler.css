@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+header {
+	font-size: 60px;
+	text-align: center;
+	padding: 1.45%;
+}
+
+.problem-bar {
+	position: relative;
+	background-color: #1F295A;
+	opacity: 0.95;
+	height: 35px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 3px;
+	color: #fff;
+}
+
+p.problem {
+	display: inline;
+	position: relative;
+	top: 5px;
+}
+
+.problem-1 {
+	left: 12.5%;
+}
+
+.problem-2 {
+	left: 39%;
+}
+
+.problem-3 {
+	left: 66%;
+}
+
+.content {
+	position: relative;
+}
+
+.content-1 {
+	position: absolute;
+	width: 30%;
+	padding: 2% 1% 2% 2%;
+	text-align: center;
+}
+
+.content-2 {
+	position: absolute;
+	text-align: center;
+	width: 30%;
+	padding: 2% 1%;
+	left: 33.5%;
+}
+
+.content-3 {
+	position: absolute;
+	width: 30%;
+	padding: 2% 2% 2% 1%;
+	text-align: center;
+	right: 0%;
+}
+/*
+input.input {
+	padding: 6px 30px;
+	text-align: center;
+	border: 1px solid #cecece;
+	border-radius: 2px;
+	background-color: #fff;
+	color: #000;
+}
+
+.input-bar {
+	width: 100%;
+	display: inline;
+	position: absolute;
+	top: 520px;
+}
+
+.input-1 {
+	position: relative;
+	list-style: none;
+	display: inline;
+	left: 9%;
+}
+
+.input-2 {
+	position: relative;
+	list-style: none;
+	display: inline;
+	left: 30%;
+}
+
+.input-3 {
+	position: relative;
+	list-style: none;
+	display: inline;
+	left: 51%;
+} */
+
+input.button {
+	cursor: pointer;
+	padding: 3px 40px;
+	border: 1px;
+	border-radius: 2px;
+	background-color: #1F295A;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.solution-bar {
+	width: 100%;
+	display: inline;
+	position: absolute;
+	top: 520px;
+}
+
+.calculate-1 {
+	position: relative;
+	list-style: none;
+	display: inline;
+	left: 11%;
+}
+
+.calculate-2 {
+	position: relative;
+	list-style: none;
+	display: inline;
+	left: 32%;
+}
+
+.calculate-3 {
+	position: relative;
+	list-style: none;
+	display: inline;
+	left: 53%;
+}
