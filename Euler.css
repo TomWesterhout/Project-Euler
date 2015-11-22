@@ -25,6 +25,7 @@ header {
 	margin-right: 20px;
 	border-radius: 3px;
 	color: #fff;
+	box-shadow: 5px 5px 8px #cecece;
 }
 
 p.problem {
@@ -71,7 +72,18 @@ p.problem {
 	text-align: center;
 	right: 0%;
 }
-/*
+
+.text-size {
+	font-size: 19px;
+}
+
+.input-bar {
+	width: 100%;
+	display: inline;
+	position: absolute;
+	top: 470px;
+}
+
 input.input {
 	padding: 6px 30px;
 	text-align: center;
@@ -81,18 +93,11 @@ input.input {
 	color: #000;
 }
 
-.input-bar {
-	width: 100%;
-	display: inline;
-	position: absolute;
-	top: 520px;
-}
-
 .input-1 {
 	position: relative;
 	list-style: none;
 	display: inline;
-	left: 9%;
+	left: 10.3%;
 }
 
 .input-2 {
@@ -106,8 +111,8 @@ input.input {
 	position: relative;
 	list-style: none;
 	display: inline;
-	left: 51%;
-} */
+	left: 49.6%;
+}
 
 input.button {
 	cursor: pointer;
@@ -119,13 +124,14 @@ input.button {
 	font-size: 20px;
 	font-weight: 300;
 	color: #fff;
+	box-shadow: 5px 5px 8px #cecece;
 }
 
 .solution-bar {
 	width: 100%;
 	display: inline;
 	position: absolute;
-	top: 520px;
+	top: 515px;
 }
 
 .calculate-1 {
