@@ -16,16 +16,42 @@ header {
 	padding: 1.45%;
 }
 
+/* Section which contains the blue bar and the problems one to three */
 .problem-bar {
 	position: relative;
+	display: inline-block;
+	width: 97%;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+}
+
+.problem-bar-left {
+	float: left;
+	width: 33.333%;
 	background-color: #1F295A;
 	opacity: 0.95;
 	height: 35px;
-	margin-left: 20px;
-	margin-right: 20px;
-	border-radius: 3px;
+	border-radius: 3px 0 0 3px;
 	color: #fff;
-	box-shadow: 5px 5px 8px #cecece;
+}
+
+.problem-bar-right {
+	float: right;
+	width: 33.333%;
+	background-color: #1F295A;
+	opacity: 0.95;
+	height: 35px;
+	border-radius: 0 3px 3px 0;
+	color: #fff;
+}
+
+.problem-bar-mid {
+	margin: auto;
+	width: 33.333%;
+	background-color: #1F295A;
+	opacity: 0.95;
+	height: 35px;
+	color: #fff;
 }
 
 p.problem {
@@ -35,24 +61,26 @@ p.problem {
 }
 
 .problem-1 {
-	left: 12.5%;
-}
-
-.problem-2 {
-	left: 39%;
+	left: 37.5%;
 }
 
 .problem-3 {
-	left: 66%;
+	left: 37.5%;
 }
 
+.problem-2 {
+	left: 37.5%;
+}
+
+/* Section which contains the content of the three problems */
 .content {
 	position: relative;
+	width: 100%;
 }
 
 .content-1 {
 	position: absolute;
-	width: 30%;
+	width: 30.333%;
 	padding: 2% 1% 2% 2%;
 	text-align: center;
 }
@@ -60,14 +88,14 @@ p.problem {
 .content-2 {
 	position: absolute;
 	text-align: center;
-	width: 30%;
-	padding: 2% 1%;
+	width: 30.333%;
+	padding: 2% 1.5%;
 	left: 33.5%;
 }
 
 .content-3 {
 	position: absolute;
-	width: 30%;
+	width: 30.333%;
 	padding: 2% 2% 2% 1%;
 	text-align: center;
 	right: 0%;
@@ -77,11 +105,12 @@ p.problem {
 	font-size: 19px;
 }
 
+/* Section which contains the input fields of the three corresponding problems */
 .input-bar {
 	width: 100%;
 	display: inline;
 	position: absolute;
-	top: 470px;
+	top: 645px;
 }
 
 input.input {
@@ -114,6 +143,14 @@ input.input {
 	left: 49.6%;
 }
 
+/* Section which contains the buttons of the three corresponding problems */
+.solution-bar {
+	width: 100%;
+	display: inline;
+	position: absolute;
+	top: 680px;
+}
+
 input.button {
 	cursor: pointer;
 	padding: 3px 40px;
@@ -125,13 +162,6 @@ input.button {
 	font-weight: 300;
 	color: #fff;
 	box-shadow: 5px 5px 8px #cecece;
-}
-
-.solution-bar {
-	width: 100%;
-	display: inline;
-	position: absolute;
-	top: 515px;
 }
 
 .calculate-1 {
