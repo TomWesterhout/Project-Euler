@@ -122,25 +122,40 @@ input.input {
 	color: #000;
 }
 
+.input-bar-1 {
+	float: left;
+	width: 33.333%;
+}
+
+.input-bar-3 {
+	float: right;
+	width: 33.333%;
+}
+
+.input-bar-2 {
+	margin: auto;
+	width: 33.333%;
+}
+
 .input-1 {
 	position: relative;
 	list-style: none;
 	display: inline;
-	left: 10.3%;
+	left: 32%;
 }
 
 .input-2 {
 	position: relative;
 	list-style: none;
 	display: inline;
-	left: 30%;
+	left: 31%;
 }
 
 .input-3 {
 	position: relative;
 	list-style: none;
 	display: inline;
-	left: 49.6%;
+	left: 29%;
 }
 
 /* Section which contains the buttons of the three corresponding problems */
@@ -164,23 +179,38 @@ input.button {
 	box-shadow: 5px 5px 8px #cecece;
 }
 
+.solution-bar-1 {
+	float: left;
+	width: 33.333%;
+}
+
+.solution-bar-3 {
+	float: right;
+	width: 33.333%;
+}
+
+.solution-bar-2 {
+	margin: auto;
+	width: 33.333%;
+}
+
 .calculate-1 {
 	position: relative;
 	list-style: none;
 	display: inline;
-	left: 11%;
+	left: 34%;
 }
 
 .calculate-2 {
 	position: relative;
 	list-style: none;
 	display: inline;
-	left: 32%;
+	left: 33%;
 }
 
 .calculate-3 {
 	position: relative;
 	list-style: none;
 	display: inline;
-	left: 53%;
+	left: 31%;
 }
