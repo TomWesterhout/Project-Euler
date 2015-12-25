@@ -17,6 +17,7 @@ header {
 }
 
 /* Section which contains the blue bar and the problems one to three */
+
 .problem-bar {
 	position: relative;
 	display: inline-block;
@@ -73,6 +74,7 @@ p.problem {
 }
 
 /* Section which contains the content of the three problems */
+
 .content {
 	position: relative;
 	width: 100%;
@@ -105,7 +107,8 @@ p.problem {
 	font-size: 19px;
 }
 
-/* Section which contains the input fields of the three corresponding problems */
+/* Section which contains the fields of the three corresponding problems */
+
 .calculation-bar {
 	width: 100%;
 	display: inline;
@@ -146,34 +149,17 @@ p.problem {
 	margin-bottom: 1%;
 }
 
-input.input {
+/* Section which contains the input fields of the three corresponding problems */
+
+input {
 	padding: 6px 30px;
 	text-align: center;
 	border: 1px solid #cecece;
 	border-radius: 2px;
 	background-color: #fff;
 	color: #000;
-}
-
-.input-1 {
-	position: relative;
-	list-style: none;
-	display: inline;
-	left: 32%;
-}
-
-.input-2 {
-	position: relative;
-	list-style: none;
-	display: inline;
-	left: 31%;
-}
-
-.input-3 {
-	position: relative;
-	list-style: none;
-	display: inline;
-	left: 29%;
+	display: block;
+	margin: auto;
 }
 
 /* Section which contains the buttons of the three corresponding problems */
@@ -181,6 +167,7 @@ input.input {
 input.button {
 	cursor: pointer;
 	padding: 3px 40px;
+	margin-bottom: 2%;
 	border: 1px;
 	border-radius: 2px;
 	background-color: #1F295A;
@@ -189,28 +176,4 @@ input.button {
 	font-weight: 300;
 	color: #fff;
 	box-shadow: 5px 5px 8px #cecece;
-}
-
-.calculate-1 {
-	position: relative;
-	list-style: none;
-	display: inline;
-	margin-top: 2%;
-	left: 34%;
-}
-
-.calculate-2 {
-	position: relative;
-	list-style: none;
-	display: inline;
-	margin-top: 2%;
-	left: 33%;
-}
-
-.calculate-3 {
-	position: relative;
-	list-style: none;
-	display: inline;
-	margin-top: 2%;
-	left: 31%;
 }
