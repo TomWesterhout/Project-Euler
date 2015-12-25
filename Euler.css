@@ -106,11 +106,44 @@ p.problem {
 }
 
 /* Section which contains the input fields of the three corresponding problems */
-.input-bar {
+.calculation-bar {
 	width: 100%;
 	display: inline;
 	position: absolute;
 	top: 645px;
+}
+
+.calculation-bar-1 {
+	float: left;
+	width: 33.333%;
+}
+
+.calculation-bar-3 {
+	float: right;
+	width: 33.333%;
+}
+
+.calculation-bar-2 {
+	margin: auto;
+	width: 33.333%;
+}
+
+#output-1 {
+	height: 24px;
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+#output-2 {
+	height: 24px;
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+#output-3 {
+	height: 24px;
+	text-align: center;
+	margin-bottom: 1%;
 }
 
 input.input {
@@ -120,21 +153,6 @@ input.input {
 	border-radius: 2px;
 	background-color: #fff;
 	color: #000;
-}
-
-.input-bar-1 {
-	float: left;
-	width: 33.333%;
-}
-
-.input-bar-3 {
-	float: right;
-	width: 33.333%;
-}
-
-.input-bar-2 {
-	margin: auto;
-	width: 33.333%;
 }
 
 .input-1 {
@@ -159,12 +177,6 @@ input.input {
 }
 
 /* Section which contains the buttons of the three corresponding problems */
-.solution-bar {
-	width: 100%;
-	display: inline;
-	position: absolute;
-	top: 680px;
-}
 
 input.button {
 	cursor: pointer;
@@ -179,25 +191,11 @@ input.button {
 	box-shadow: 5px 5px 8px #cecece;
 }
 
-.solution-bar-1 {
-	float: left;
-	width: 33.333%;
-}
-
-.solution-bar-3 {
-	float: right;
-	width: 33.333%;
-}
-
-.solution-bar-2 {
-	margin: auto;
-	width: 33.333%;
-}
-
 .calculate-1 {
 	position: relative;
 	list-style: none;
 	display: inline;
+	margin-top: 2%;
 	left: 34%;
 }
 
@@ -205,6 +203,7 @@ input.button {
 	position: relative;
 	list-style: none;
 	display: inline;
+	margin-top: 2%;
 	left: 33%;
 }
 
@@ -212,5 +211,6 @@ input.button {
 	position: relative;
 	list-style: none;
 	display: inline;
+	margin-top: 2%;
 	left: 31%;
 }

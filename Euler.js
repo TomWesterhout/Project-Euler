@@ -8,7 +8,7 @@ var formulaOne = function() {
             sum += i;
         }
     }
-    confirm("The sum of all multiples of 3 and 5 below " + input + " is " + sum);
+    document.getElementById("output-1").innerHTML = sum;
 };
 
 var formulaTwo = function() {
@@ -27,7 +27,7 @@ var formulaTwo = function() {
         first = active;
         active = first + second;
     }
-    confirm("The sum of all the even valued terms of " + limit + " is " + sum);
+    document.getElementById("output-2").innerHTML = sum;
 };
 
 var formulaThree = function() {
@@ -47,6 +47,7 @@ var formulaThree = function() {
     }
     if (number > primeFactor) {
         primeFactor = number;
-        confirm("The largest prime factor of " + origNumber + " is " + primeFactor);
+        
+        document.getElementById("output-3").innerHTML = primeFactor;
     }
 };
